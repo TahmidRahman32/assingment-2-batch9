@@ -1,0 +1,57 @@
+* {
+   font-family: "Roboto Condensed", sans-serif;
+   margin: 0px;
+   padding: 0px;
+}
+body {
+   width: 80%;
+   margin: 20px auto;
+}
+nav {
+   display: flex;
+   justify-content: space-between;
+}
+.nav-img {
+   display: flex;
+   margin: 0px;
+   gap: 4px;
+   align-items: center;
+}
+.nav-img h1 {
+   font-size: 30px;
+}
+.tour {
+   color: orangered;
+}
+.nav-img img {
+   width: 35px;
+}
+.nav-btn {
+   display: flex;
+   list-style: none;
+   gap: 20px;
+}
+.nav-btn li:hover {
+   color: orangered;
+   text-decoration: underline;
+}
+.mano-hidden {
+   display: none;
+}
+
+/* banner set */
+
+/* Responsive site */
+
+@media screen and ((max-width: 600px)) {
+   body {
+      width: 90%;
+      margin: 10px 1em;
+   }
+   .nav-btn {
+      display: none;
+   }
+   .mano-hidden {
+      display: block;
+   }
+}
